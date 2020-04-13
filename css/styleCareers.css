@@ -1,0 +1,112 @@
+﻿html, body{
+	width: 100%;
+	height: 100%;
+}
+@font-face {
+  font-family: 'Samim';
+  src: url('../font/Samim.eot');
+  src: url('../font/Samim.eot?#iefix') format('embedded-opentype'),
+       url('../font/Samim.woff') format('woff'),
+       url('../font/Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'TeamSpiritNF';
+  src: url('../font/TeamSpiritNF.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ChanticleerRomanNF';
+  src: url('../font/ChanticleerRomanNF.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'font-awesome';
+  src: url('./fonts/fontawesome-webfont.eot') format('eot'),
+       url('./fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('./fonts/fontawesome-webfont.woff') format('woff'), 
+       url('./fonts/fontawesome-webfont.ttf') format('ttf'),
+       url('./fonts/fontawesome-webfont.svg') format('svg'),
+       url('./fonts/FontAwesome.otf') format('otf');
+}
+body{
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:100%;
+  font-family: 'Samim';
+  overflow-x: hidden;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+  background: rgba();
+  font-family: 'Samim';
+  color: #000;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+li{
+  padding-top: 30px !important;
+}
+li:hover{
+  border-bottom: 1px solid #fa8911;
+  color: #fa8911;
+}
+#imageLogo{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+#divSpanTitle{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  top: 100px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Samim';
+  color: #000;
+  font-weight: bold;
+}
+#divSpanContent{
+  position: relative;
+  width: 600px;
+  height: 100px;
+  top: 150px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Samim';
+  color: gray;
+  text-align: center;
+  margin: 0 auto;
+}
+#divFormSabtenam{
+  text-decoration: none;
+  width: 200px;
+  height: 100px;
+  background: #009BE0;
+  position: relative;
+  top: 200px;
+  border-radius: 100px;
+  text-align: center;
+  right: 550px;
+  font-family: 'Samim';
+  box-shadow: 1px 2px 1px #009BE0;
+  cursor: pointer;
+}
+#divFormSabtenam a{
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+}
